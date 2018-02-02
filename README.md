@@ -35,3 +35,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 npm i element-ui
 ```
+2. 使用淘宝的 npm镜像
+```
+npm install weex-toolkit -g --registry=https://registry.npm.taobao.org
+```

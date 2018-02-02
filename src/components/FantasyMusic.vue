@@ -10,10 +10,10 @@
 
 <script>
 export default {
-  name: 'FantasyBook',
+  name: 'FantasyMusic',
   data () {
     return {
-      msg: 'FantasyBook'
+      msg: 'FantasyMusic'
     }
   }
 }

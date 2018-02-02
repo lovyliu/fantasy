@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
     <footer>
       <footer-menu></footer-menu>
@@ -28,6 +27,11 @@ footer{
   bottom: 0;
   width: 100%;
 }
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -35,6 +39,6 @@ footer{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-bottom: 44px;
 }
 </style>
